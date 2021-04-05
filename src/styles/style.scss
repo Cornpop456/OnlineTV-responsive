@@ -448,6 +448,7 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
     object-fit: cover;
+    border-radius: 2rem;
   }
 }
 
@@ -781,7 +782,6 @@ footer {
   }
 
   .footer {
-    display: flex;
     flex-direction: column;
     column-gap: 5rem;
     row-gap: 3rem;
@@ -797,15 +797,6 @@ footer {
       list-style: none;
       padding-left: 0;
       margin: 0;
-      &__item {
-        margin-bottom: 2rem;
-      }
-      &__link {
-        font-size: 1.8rem;
-        color: #c2c2c2;
-        text-decoration: none;
-        font-weight: 600;
-      }
     }
 
     &-item {
