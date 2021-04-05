@@ -408,9 +408,12 @@ button:focus {
     opacity: 0.4;
   }
   .banner {
+    min-height: 55rem;
     max-width: 100%;
-    padding: 2rem;
-    margin: 0;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
     -webkit-box-shadow: 100px 0px 100px #000;
             box-shadow: 100px 0px 100px #000;
     background-color: #000;
@@ -419,10 +422,13 @@ button:focus {
   .banner__title {
     font-size: 6rem;
     line-height: 5.5rem;
+    margin: 0;
+    margin-bottom: 3rem;
   }
   .banner__text {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 700;
+    font-size: 2.2rem;
   }
 }
 
