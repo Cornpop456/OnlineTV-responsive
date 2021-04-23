@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Mulish:wght@400;600;700;800&amp;display=swap">
-    <style>
-      /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Mulish:wght@400;600;700;800&amp;display=swap"><style>/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -154,7 +146,7 @@ template {
   display: none;
 }
 /*# sourceMappingURL=normalize.min.css.map */
-      html {
+html {
   font-size: 10px;
 }
 
@@ -563,6 +555,9 @@ button:focus {
     z-index: -1;
     opacity: 0.4;
   }
+  .section-banner__image + .container {
+    padding-right: 0;
+  }
   .banner {
     min-height: 55rem;
     max-width: 100%;
@@ -585,6 +580,7 @@ button:focus {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 700;
     font-size: 2.2rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -830,6 +826,14 @@ button:focus {
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
   }
+  .actors::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+  }
+  .actors::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+  }
 }
 
 .marketing {
@@ -1069,8 +1073,6 @@ footer {
     margin: 0;
   }
   .footer-item {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 2rem;
     padding: 2rem;
     width: 80%;
   }
@@ -1078,187 +1080,4 @@ footer {
     border: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
-    </style>
-    <title>Online TV</title>
-  </head>
-  <body>
-    <header> 
-      <div class="header"> <a href="#"><img src="images/logo.svg" alt="alt"></a>
-        <nav>
-          <ul class="nav"> 
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Series</a></li>
-          </ul>
-        </nav>
-        <ul class="control">
-          <li class="control-item">
-            <button class="control-btn control-btn_search"></button>
-          </li>
-          <li class="control-item">
-            <button class="control-btn control-btn_notice"></button>
-          </li>
-          <li class="control-item">
-            <button class="control-btn control-btn_account"></button>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <section class="section-banner"><img class="section-banner__image" src="images/banner.png" alt="banner">
-      <div class="container">
-        <div class="banner"> 
-          <h1 class="banner__title">Zack Snyder's Justice League</h1>
-          <div class="banner-info"><span class="banner-info__year">2021 </span><span class="banner-info__age">18+</span><span class="banner-info__time">4h 2min</span><span class="banner-info__rating">8.8</span></div>
-          <p class="banner__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce  Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p>
-          <div class="banner-control"> 
-            <button class="banner-control__btn banner-control__btn-main">Watch </button>
-            <button class="banner-control__btn banner-control__btn-more">More information </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container"> 
-        <h2 class="section__h2"> <a class="section__h2-link" href="#">Trending TV Shows</a></h2>
-        <div class="movies"> 
-          <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="images/posters/poster01.png" alt="poster1"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster02.png" alt="poster2"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster03.png" alt="poster3"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster04.png" alt="poster4"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster05.png" alt="poster5"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster06.png" alt="poster6"></a></div>
-        </div>
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container"> 
-        <h2 class="section__h2"> <a class="section__h2-link" href="#">Trending Movies</a></h2>
-        <div class="movies"> 
-          <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="images/posters/poster07.png" alt="poster1"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster08.png" alt="poster2"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster09.png" alt="poster3"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster10.png" alt="poster4"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster11.png" alt="poster5"></a></div>
-          <div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster12.png" alt="poster6"></a></div>
-        </div>
-        <button class="section__btn">See more</button>
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container"> 
-        <h2 class="section__h2"> <a class="section__h2-link" href="#">Popular Genres</a></h2>
-        <div class="genres">
-          <div class="genres-item genres-item_romance">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/romance.svg" alt="alt"></div>
-            <h3 class="genres__title">Romance</h3>
-          </div>
-          <div class="genres-item genres-item_drama">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/drama.svg" alt="alt"></div>
-            <h3 class="genres__title">Drama</h3>
-          </div>
-          <div class="genres-item genres-item_historical">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/historical.svg" alt="alt"></div>
-            <h3 class="genres__title">Historical</h3>
-          </div>
-          <div class="genres-item genres-item_action">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/action.svg" alt="alt"></div>
-            <h3 class="genres__title">Action</h3>
-          </div>
-          <div class="genres-item genres-item_scifi">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/sci-fi.svg" alt="alt"></div>
-            <h3 class="genres__title">Sci-fi</h3>
-          </div>
-          <div class="genres-item genres-item_horror">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/horror.svg" alt="alt"></div>
-            <h3 class="genres__title">Horror</h3>
-          </div>
-          <div class="genres-item genres-item_comedy">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/comedy.svg" alt="alt"></div>
-            <h3 class="genres__title">Comedy</h3>
-          </div>
-          <div class="genres-item genres-item_documentary">
-            <div class="genres-icon"><img class="genres__image" src="images/genres/documentary.svg" alt="alt"></div>
-            <h3 class="genres__title">Documentary</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container"> 
-        <h2 class="section__h2"> <a class="section__h2-link" href="#">Popular Actors & Directors</a></h2>
-        <div class="actors">
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor01.png" alt="Samantha Bowen"></a>
-            <h3 class="actors__title">Samantha Bowen</h3>
-          </div>
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor02.png" alt="Rhys Birch"></a>
-            <h3 class="actors__title">Rhys Birch</h3>
-          </div>
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor03.png" alt="James Holloway"></a>
-            <h3 class="actors__title">James Holloway</h3>
-          </div>
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor04.png" alt="Joshua Walton"></a>
-            <h3 class="actors__title">Joshua Walton</h3>
-          </div>
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor05.png" alt="Patrick Elliott"></a>
-            <h3 class="actors__title">Patrick Elliott</h3>
-          </div>
-          <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor06.png" alt="Morgan O'Neill"></a>
-            <h3 class="actors__title">Morgan O'Neill</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section"> 
-      <div class="container"> 
-        <div class="marketing">
-          <div class="marketing-item"><a class="marketing__link" href="#"><img class="marketing__img" src="./images/marketing/marketing01.png" alt="marketing1"></a></div>
-          <div class="marketing-item"><a class="marketing__link" href="#"><img class="marketing__img" src="./images/marketing/marketing02.png" alt="marketing2"></a></div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="offer"> 
-          <h2 class="offer__title">Are You New Here ? Don’t&nbsp;wait, Register Now. </h2>
-          <button class="offer__btn">Register</button>
-        </div>
-      </div>
-    </section>
-    <footer> 
-      <div class="footer"> 
-        <div class="footer-item"> <a href="#"><img src="images/logo.svg" alt="Logo"></a></div>
-        <div class="footer-item"> 
-          <ul class="footer-list"> 
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Voice over and Subtitle</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Media Center </a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Privacy</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="footer-item"> 
-          <ul class="footer-list"> 
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Voice Description</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Investor Relations</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Legal Provisions</a></li>
-          </ul>
-        </div>
-        <div class="footer-item"> 
-          <ul class="footer-list"> 
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Help Center</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Job Opportunities</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Cookies Preferences</a></li>
-          </ul>
-        </div>
-        <div class="footer-item"> 
-          <ul class="footer-list"> 
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Gift Cards</a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Terms of Use </a></li>
-            <li class="footer-list__item"> <a class="footer-list__link" href="#">Corporate Informations</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+/*# sourceMappingURL=style.css.map */</style><title>Online TV</title></head><body><header> <div class="header"> <a href="#"><img src="images/logo.svg" alt="alt"></a><nav><ul class="nav"> <li class="nav-item"><a class="nav-link active" href="#">Home</a></li><li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li><li class="nav-item"><a class="nav-link" href="#">Movies</a></li><li class="nav-item"><a class="nav-link" href="#">Series</a></li></ul></nav><ul class="control"><li class="control-item"><button class="control-btn control-btn_search"></button></li><li class="control-item"><button class="control-btn control-btn_notice"></button></li><li class="control-item"><button class="control-btn control-btn_account"></button></li></ul></div></header><section class="section-banner"><img class="section-banner__image" src="images/banner.png" alt="banner"><div class="container"><div class="banner"> <h1 class="banner__title">Zack Snyder's Justice League</h1><div class="banner-info"><span class="banner-info__year">2021 </span><span class="banner-info__age">18+</span><span class="banner-info__time">4h 2min</span><span class="banner-info__rating">8.8</span></div><p class="banner__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce  Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p><div class="banner-control"> <button class="banner-control__btn banner-control__btn-main">Watch </button><button class="banner-control__btn banner-control__btn-more">More information </button></div></div></div></section><section class="section"> <div class="container"> <h2 class="section__h2"> <a class="section__h2-link" href="#">Trending TV Shows</a></h2><div class="movies"> <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="images/posters/poster01.png" alt="poster1"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster02.png" alt="poster2"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster03.png" alt="poster3"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster04.png" alt="poster4"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster05.png" alt="poster5"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster06.png" alt="poster6"></a></div></div></div></section><section class="section"> <div class="container"> <h2 class="section__h2"> <a class="section__h2-link" href="#">Trending Movies</a></h2><div class="movies"> <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="images/posters/poster07.png" alt="poster1"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster08.png" alt="poster2"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster09.png" alt="poster3"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster10.png" alt="poster4"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster11.png" alt="poster5"></a></div><div class="movies-item"><a class="movies__link" href="#"><img class="movies__img" src="images/posters/poster12.png" alt="poster6"></a></div></div><button class="section__btn">See more</button></div></section><section class="section"> <div class="container"> <h2 class="section__h2"> <a class="section__h2-link" href="#">Popular Genres</a></h2><div class="genres"><div class="genres-item genres-item_romance"><div class="genres-icon"><img class="genres__image" src="images/genres/romance.svg" alt="alt"></div><h3 class="genres__title">Romance</h3></div><div class="genres-item genres-item_drama"><div class="genres-icon"><img class="genres__image" src="images/genres/drama.svg" alt="alt"></div><h3 class="genres__title">Drama</h3></div><div class="genres-item genres-item_historical"><div class="genres-icon"><img class="genres__image" src="images/genres/historical.svg" alt="alt"></div><h3 class="genres__title">Historical</h3></div><div class="genres-item genres-item_action"><div class="genres-icon"><img class="genres__image" src="images/genres/action.svg" alt="alt"></div><h3 class="genres__title">Action</h3></div><div class="genres-item genres-item_scifi"><div class="genres-icon"><img class="genres__image" src="images/genres/sci-fi.svg" alt="alt"></div><h3 class="genres__title">Sci-fi</h3></div><div class="genres-item genres-item_horror"><div class="genres-icon"><img class="genres__image" src="images/genres/horror.svg" alt="alt"></div><h3 class="genres__title">Horror</h3></div><div class="genres-item genres-item_comedy"><div class="genres-icon"><img class="genres__image" src="images/genres/comedy.svg" alt="alt"></div><h3 class="genres__title">Comedy</h3></div><div class="genres-item genres-item_documentary"><div class="genres-icon"><img class="genres__image" src="images/genres/documentary.svg" alt="alt"></div><h3 class="genres__title">Documentary</h3></div></div></div></section><section class="section"> <div class="container"> <h2 class="section__h2"> <a class="section__h2-link" href="#">Popular Actors & Directors</a></h2><div class="actors"><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor01.png" alt="Samantha Bowen"></a><h3 class="actors__title">Samantha Bowen</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor02.png" alt="Rhys Birch"></a><h3 class="actors__title">Rhys Birch</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor03.png" alt="James Holloway"></a><h3 class="actors__title">James Holloway</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor04.png" alt="Joshua Walton"></a><h3 class="actors__title">Joshua Walton</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor05.png" alt="Patrick Elliott"></a><h3 class="actors__title">Patrick Elliott</h3></div><div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actor/actor06.png" alt="Morgan O'Neill"></a><h3 class="actors__title">Morgan O'Neill</h3></div></div></div></section><section class="section"> <div class="container"> <div class="marketing"><div class="marketing-item"><a class="marketing__link" href="#"><img class="marketing__img" src="./images/marketing/marketing01.png" alt="marketing1"></a></div><div class="marketing-item"><a class="marketing__link" href="#"><img class="marketing__img" src="./images/marketing/marketing02.png" alt="marketing2"></a></div></div></div></section><section class="section"><div class="container"><div class="offer"> <h2 class="offer__title">Are You New Here ? Don’t&nbsp;wait, Register Now. </h2><button class="offer__btn">Register</button></div></div></section><footer> <div class="footer"> <div class="footer-item"> <a href="#"><img src="images/logo.svg" alt="Logo"></a></div><div class="footer-item"> <ul class="footer-list"> <li class="footer-list__item"> <a class="footer-list__link" href="#">Voice over and Subtitle</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Media Center </a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Privacy</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Contact us</a></li></ul></div><div class="footer-item"> <ul class="footer-list"> <li class="footer-list__item"> <a class="footer-list__link" href="#">Voice Description</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Investor Relations</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Legal Provisions</a></li></ul></div><div class="footer-item"> <ul class="footer-list"> <li class="footer-list__item"> <a class="footer-list__link" href="#">Help Center</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Job Opportunities</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Cookies Preferences</a></li></ul></div><div class="footer-item"> <ul class="footer-list"> <li class="footer-list__item"> <a class="footer-list__link" href="#">Gift Cards</a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Terms of Use </a></li><li class="footer-list__item"> <a class="footer-list__link" href="#">Corporate Informations</a></li></ul></div></div></footer></body></html>

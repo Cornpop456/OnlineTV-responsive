@@ -407,6 +407,9 @@ button:focus {
     z-index: -1;
     opacity: 0.4;
   }
+  .section-banner__image + .container {
+    padding-right: 0;
+  }
   .banner {
     min-height: 55rem;
     max-width: 100%;
@@ -429,6 +432,7 @@ button:focus {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 700;
     font-size: 2.2rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -674,6 +678,14 @@ button:focus {
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
   }
+  .actors::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+  }
+  .actors::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+  }
 }
 
 .marketing {
@@ -913,8 +925,6 @@ footer {
     margin: 0;
   }
   .footer-item {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 2rem;
     padding: 2rem;
     width: 80%;
   }
